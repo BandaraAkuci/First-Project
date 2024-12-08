@@ -4,6 +4,10 @@
 
 !/Main/
 
-/Main/bin
+!/Main/CSharpProject.csproj
 
-/Main/obj
+!/Main/Program.cs
+
+/Main/bin/
+
+/Main/obj/
