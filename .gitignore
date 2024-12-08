@@ -3,3 +3,11 @@
 !/.gitignore
 
 !/Main/
+
+!/Main/CSharpProject.csproj
+
+!/Main/Program.cs
+
+/Main/bin/
+
+/Main/obj/
