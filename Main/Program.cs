@@ -31,6 +31,18 @@ namespace Aritmatika
         {
             return a - b;
         }
+
+
+        /// <summary>
+        /// Pembagian antar dua bilangan bulat.
+        /// </summary>
+        /// <param name="a">Bilangan bulat pertama.</param>
+        /// <param name="b">Bilangan bulat kedua.</param>
+        /// <returns>Hasil pembagian dua bilangan bulat.</returns>
+        public static float Bagi(float a, float b)
+        {
+            return a / b;
+        }
     }
 
 
@@ -45,9 +57,11 @@ namespace Aritmatika
             int B = 15;
             int Penambahan = Opsi.Tambah(A,B);
             int Pengurangan = Opsi.Kurang(A,B);
+            float Pembagian = Opsi.Bagi(A,B);
 
             Console.WriteLine($"Hasil penambahan dari {A} + {B} adalah: {Penambahan}");
             Console.WriteLine($"Hasil pengurangan dari {A} - {B} adalah: {Pengurangan}");
+            Console.WriteLine($"Hasil pembagian dari {A} / {B} adalah: {Pembagian:F1}");
         }
     }
 }

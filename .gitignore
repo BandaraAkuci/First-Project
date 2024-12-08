@@ -3,3 +3,7 @@
 !/.gitignore
 
 !/Main/
+
+/Main/bin
+
+/Main/obj
